@@ -1,0 +1,3 @@
+Meme generator je spetni generator meme-ov, kjer lahko uporabnik vnese t. i. "Top text" in "Bottom text" zraven slikovne datoteke, zatem pa je na sliko narisano podano besedilo, končni rezultat je prikazan v brskalniku.
+
+Za zagon programa je potrebna uporaba dockerja. Potrebni so skripta app.py, seznam potrebnih knjižnic requirements.txt, Dockerfile in mapa fonts s potrebnimi pisavami. Priporočena je uporaba "ukaza sudo docker build -t meme-generator .". To ustvari docker sliko, ki jo je možno pognati z "docker run -p 5000:5000 meme-generator". Do lokalnega strežnika je možno dostopati do localhost ip naslovu 127.0.0.1 na vratih 5000 z brskalnikom. Meme se ustvari z html obrazcom na strani.
